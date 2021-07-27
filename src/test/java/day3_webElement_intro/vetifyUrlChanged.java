@@ -10,7 +10,7 @@ public class vetifyUrlChanged {
         //open chrome browser
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         //go to site
-        driver.get("http://practice.cybertekschool.com/forgot_password");
+            driver.get("http://practice.cybertekschool.com/forgot_password");
         //enter any email
         WebElement emailInputBox = driver.findElement(By.name("email"));
         //sendKeys()--> send keyboard action to the webElement

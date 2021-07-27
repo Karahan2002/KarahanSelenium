@@ -15,7 +15,7 @@ public class RadioButtonTest {
         driver.get("http://practice.cybertekschool.com/radio_buttons");
         //locating radio buttons
         WebElement button = driver.findElement(By.cssSelector("#blue"));
-        WebElement button2 = driver.findElement(By.id("red"));
+        WebElement button2 = driver.findElement(By.id("id"));
         //how to checj radio button is selected?
         System.out.println("button.isSelected() = " + button.isSelected());
         System.out.println("button2.isSelected() = " + button2.isSelected());
